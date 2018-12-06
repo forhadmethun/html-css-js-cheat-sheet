@@ -1,3 +1,4 @@
+##### Intro
 - elements
     - start & end tags
      - attributes
@@ -17,13 +18,13 @@
     
     
 ### Topics
-#####heading
+##### heading
  - h1 - h6
  - font-size attribute to make the header bigger
 ##### paragraph
  - end closing tag
  - doesn't work with space, new line in single paragraph
- - to solve poem problem use <pre> tag which defines pre-formatted text
+ - to solve poem problem use < pre> tag which defines pre-formatted text
 ##### links
  - color
   - can be changed with a:link, a:visited, a:hover, a:active styling 
@@ -34,12 +35,14 @@
   - _top ( full body of window)
   - framename
  - Create a Bookmark
-  - <p id="c4"> chapter 4 </p>
-  - < a href="#c4"> Jump to chapter 4</a>
-  - < a href="page_name.html#c4"> Jump to chapter 4</a>
+  ```
+   <p id="c4"> chapter 4 </p>
+   < a href="#c4"> Jump to chapter 4</a>
+   < a href="page_name.html#c4"> Jump to chapter 4</a>
+  ```
   
 ##### images 
-    - attribute
+   - attribute
         - src
         - alt 
         - width
@@ -61,7 +64,7 @@
  - start="50"
  
 ##### Tables
- - <table><caption>C</caption><tr><th></tr><tr><td></td></tr></table> 
+ ```<table><caption>C</caption><tr><th></tr><tr><td></td></tr></table>``` 
  - th by default center bold
  - style 
   - table, th, td{ border: 1px solid black; border-collapse: collapse;}
@@ -86,12 +89,12 @@
  - cite( italic ) 
  - bdo dir="rtl" (text direction right to left ) 
 ##### Comments
- - <!-- comments -->
+ ```<!-- comments -->``` 
 ##### Colors
  - style="border: 2px solid Tomato"
  - Color Value
   - rgb(255,99,71)
-  - #ff6347
+  - `#ff6347`
   - hsla(9, 100%, 64%, 0.5)  - hue, saturation, lightness
    - hue
       - 0 red
@@ -103,7 +106,7 @@
     - 0% black, 50% neither dark nor light, 100% lightness white
   -rgba(255,99,71, 0.5)  - transparent 50% (rgba(red,green,blue,alpha))
    - alpha 0.0(full transparent, 1.0(not transparent at all) 
-###Best Practices
+### Best Practices
 - lower case 
 - quotes
     - single/double both fine
@@ -112,8 +115,8 @@
   - inline
   - internal
   - external
-   - <link rel="stylesheet" href="style.css">
-   -border
+   ` <link rel="stylesheet" href="style.css">`
+  - border
     - border around html element
    - padding
    - space between text and border
@@ -124,7 +127,7 @@
   - class
    - for all special types of elements
    
-#####Blocks
+##### Blocks
  - block-level element always starts on a new line and takes up the full width available 
  - inline elements - *does not start on a new line*  
      - span
