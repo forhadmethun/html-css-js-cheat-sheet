@@ -384,7 +384,7 @@ isFinite()
 isNan 
 Arrow Function - 
 
- don't need the function keyword, the return keyword, and the curly brackets.
+ dont need the function keyword, the return keyword, and the curly brackets.
 // ES5
 var x = function(x, y) {
      return x * y;
