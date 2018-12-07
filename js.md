@@ -268,7 +268,7 @@ Adding Event Handlers
      <!-- AJAX -->
      <!-- 
 
-        AJAX is a developer's dream, because you can:
+        AJAX is a developers dream, because you can:
 
 Read data from a web server - after the page has loaded
 Update a web page without reloading the page
