@@ -52,9 +52,10 @@
        - float
        - background-image:url('image_path')
      - map ( cn create clickable areas in image ) 
-     - <picture> <source media = "(min-width:560px)" scrset="file_path"> (in html 5 multiple photo with resizing change) 
+     - `<picture> <source media = "(min-width:560px)" srcset="file_path"> (in html 5 multiple photo with resizing change) `
       
 ##### buttons
+  - button
 ##### lists
  - unordered(ul), ordered(ol)
  - style="list-style-type: disc" / circle, square, none
@@ -146,4 +147,149 @@
  - case sensitive 
  - at least one character and no whitespace allowed
  - id vs class
-     - id once used but class can be used multiple time
+   - id once used but class can be used multiple time
+ - getElementById("idName") can be used in JS
+ 
+##### Iframe
+ - Webpage within another webpage
+ - `<iframe src="url"></iframe>`
+ - height/width same as img
+ - iframe 'target' attribute can be used to target frame for a link
+
+##### HTML Javascript
+ - make pages more dynamic and interactive 
+ - script 
+ - document.getElementyById("idName").*
+    - innerHTML
+    - style.color
+    - src
+ - noscript tag used to notify user that js is not supported or disable
+
+##### HTML File Paths
+ - absolute, relative path
+##### HTML Head Element
+ - container for metadata 
+   - metadata contains title, style, links, script, base 
+ - `<meta>` tag is used by the browser to display content, by search engines and other web services
+   - description of website
+   - refresh web-page every 30 second
+   - author name 
+   - viewport
+     - varies with the device to control web-page content
+##### HTML Layout
+  - table
+  - float
+  - flexbox
+  - grid
+  - framework
+
+##### HTML Responsive 
+  - viewport
+  - responsive image
+    - width - scaled greater than original size 
+    - max-width - scaled upto original size 
+    - `<picture> <source media = "(min-width:560px)" srcset="file_path"> (in html 5 multiple photo with resizing change) `
+  - responsive text size 
+    - text size in 'vw' (viewport width)
+  - media queries 
+    - media queries you can define completely different styles for different browser sizes.
+        ``` 
+        
+            /* Use a media query to add a breakpoint at 800px: */
+            @media screen and (max-width: 800px) {
+              .left, .main, .right {
+                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+              }
+            }
+        ```
+  - use bootstrap or other CSS framework 
+  
+##### Computer Code 
+   - code
+     - use pre outside code as code doesn't contain formatting
+   - kbd - keyboard
+   - samp - output from a program or computer system
+   - var - variable
+##### HTML Entities
+  - &lt otr &#60
+  - &nbsp; - non breaking space 
+  - &gt
+  - &quot
+  - &amp
+##### HTML Symbols
+  - different mathematical & greek symbol
+  - [See for Details](https://www.w3schools.com/html/html_symbols.asp)
+  
+##### HTML Encoding 
+  - to understand a browser which character set to use  
+  - `<meta charset="UTF-8">`
+  
+##### HTML XHTML
+  - extensible hyper text markup language
+  - elements
+    - must properly nested
+    - must close
+    - must lower case
+    - must one root
+  - attributes
+    - lower case
+    - quoted
+  -Doctype
+    - mandatory
+    - xlmns attribute mandatory  
+##### HTML Forms
+  - `<form>`
+    - action
+    - target
+        - _self
+        - _blank (new tab)
+        - _parent
+        - _top
+    - method
+      - get
+      - post 
+  - `<input>`
+    - type 
+        - radio
+        - text
+        - password
+        - submit
+        - reset 
+        - checkbox
+        - in html5 
+          - color
+          - date
+          - datetime-local
+          - email
+          - file
+          - month 
+          - number 
+          - url 
+          - time
+          - week 
+          
+    - name
+    
+  - select
+    - name
+        - option
+          - value
+  - textarea
+    - rows, cols 
+    - height, width
+    
+  
+  - fieldset tag
+    - group data
+    - legend tag give title to fieldset
+    
+  - form attributes 
+    - disabled
+    - size 
+    - maxlength 
+    - autocomplete
+    - novalidate 
+    - placeholder
+    - required 
+    - autofocus
+    
