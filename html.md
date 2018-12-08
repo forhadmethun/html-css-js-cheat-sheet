@@ -1,6 +1,6 @@
 ### Intro
 - elements
-    - start & end tags
+    - start & end tags `<tagname>Content goes here...</tagname>`
      - attributes
         - style 
             - <tagname style="property: value;">
