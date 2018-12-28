@@ -951,9 +951,11 @@ function checkCookie() {
 <body onload="checkCookie()">
 ```
 
+
 #CSS
 
 ---
+
 ### Introduction
  - structure
    > selector { declaration;declaration}
